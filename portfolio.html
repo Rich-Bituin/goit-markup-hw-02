@@ -6,21 +6,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
   <header>
-    <nav>
-      <a href="#link">WEBSTUDIO</a>
+    <nav class="header-nav">
+      <a class="logo" href="#link"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
       <ul>
-        <li><a href="/goit-markup-hw-02/index.html">Studio</a></li>
-        <li><a href="/goit-markup-hw-02/portfolio.html">Portfolio</a></li>
-        <li><a href="#contacts">Contacts</a></li>
+        <li class="header-nav-list">
+          <a class="header-nav-list-link" href="/goit-markup-hw-02/index.html">Studio</a>
+        </li>
+        <li class="header-nav-list">
+          <a class="header-nav-list-link active" href="/goit-markup-hw-02/portfolio.html">Portfolio</a>
+        </li>
+        <li class="header-nav-list">
+          <a class="header-nav-list-link" href="#contacts">Contacts</a>
+        </li>
       </ul>
     </nav>
-    <address>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+    <address class="header-address">
+      <a class="header-address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="header-address-tel" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
     </address>
   </header>
 
@@ -29,19 +42,19 @@
       <h2 hidden>Portfolio Filter Buttons</h2>
       <ul class="filter-list">
         <li class="filter-list-items">
-          <button class="filter-button-all">All</button>
+          <button class="filter-button-list" type="button">All</button>
         </li>
         <li class="filter-list-items">
-          <button class="filter-button-website">Website</button>
+          <button class="filter-button-list" type="button">Website</button>
         </li>
         <li class="filter-list-items">
-          <button class="filter-button-app">App</button>
+          <button class="filter-button-list" type="button">App</button>
         </li>
         <li class="filter-list-items">
-          <button class="filter-button-design">Design</button>
+          <button class="filter-button-list" type="button">Design</button>
         </li>
         <li class="filter-list-items">
-          <button class="filter-button-marketing">Marketing</button>
+          <button class="filter-button-list" type="button">Marketing</button>
         </li>
       </ul>
     </section>
@@ -51,57 +64,57 @@
       <ul class="porfolio-selection-list">
         <li class="porfolio-selection-list-items">
           <img src="images/banking-app-interface-concept.jpg" alt="banking-app-interface-concept" width="360">
-          <h3 class="porfolio-selection-list-items-banking">Banking App Interface Concept</h3>
-          <p>App</p>
+          <h3 class="porfolio-selection-list-items-header">Banking App Interface Concept</h3>
+          <p class="porfolio-selection-list-items-description">App</p>
         </li>
         <li class="porfolio-selection-list-items">
           <img src="images/cashless-payment.jpg" alt="cashless-payment" width="360">
-          <h3 class="porfolio-selection-list-items-cashless">Cashless Payment</h3>
-          <p>Marketing</p>
+          <h3 class="porfolio-selection-list-items-header">Cashless Payment</h3>
+          <p class="porfolio-selection-list-items-description">Marketing</p>
         </li>
         <li class="porfolio-selection-list-items">
           <img src="images/meditation-app.jpg" alt="meditation-app" width="360">
-          <h3 class="porfolio-selection-list-items-meditation">Meditation App</h3>
-          <p>App</p>
+          <h3 class="porfolio-selection-list-items-header">Meditation App</h3>
+          <p class="porfolio-selection-list-items-description">App</p>
         </li>
         <li class="porfolio-selection-list-items">
           <img src="images/taxi-service.jpg" alt="taxi-service" width="360">
-          <h3 class="porfolio-selection-list-items-taxi">Taxi Service</h3>
-          <p>Marketing</p>
+          <h3 class="porfolio-selection-list-items-header">Taxi Service</h3>
+          <p class="porfolio-selection-list-items-description">Marketing</p>
         </li>
         <li class="porfolio-selection-list-items">
           <img src="images/screen-illustrations.jpg" alt="screen-illustrations" width="360">
-          <h3 class="porfolio-selection-list-items-illustrations">Screen Illustrations</h3>
-          <p>Design</p>
+          <h3 class="porfolio-selection-list-items-header">Screen Illustrations</h3>
+          <p class="porfolio-selection-list-items-description">Design</p>
         </li>
         <li class="porfolio-selection-list-items">
           <img src="images/online-courses.jpg" alt="online-courses" width="360">
-          <h3 class="porfolio-selection-list-items-courses">Online Courses</h3>
-          <p>Marketing</p>
+          <h3 class="porfolio-selection-list-items-header">Online Courses</h3>
+          <p class="porfolio-selection-list-items-description">Marketing</p>
         </li>
         <li class="porfolio-selection-list-items">
           <img src="images/instagram-stories-concept.jpg" alt="instagram-stories-concept" width="360">
-          <h3 class="porfolio-selection-list-items-concept">Instagram Stories Concept</h3>
-          <p>Design</p>
+          <h3 class="porfolio-selection-list-items-header">Instagram Stories Concept</h3>
+          <p class="porfolio-selection-list-items-description">Design</p>
         </li>
         <li class="porfolio-selection-list-items">
           <img src="images/organic-food.jpg" alt="organic-food" width="360">
-          <h3 class="porfolio-selection-list-items-food">Organic Food</h3>
-          <p>Web Site</p>
+          <h3 class="porfolio-selection-list-items-header">Organic Food</h3>
+          <p class="porfolio-selection-list-items-description">Web Site</p>
         </li>
         <li class="porfolio-selection-list-items">
           <img src="images/fresh-coffee.jpg" alt="fresh-coffee" width="360">
-          <h3 class="porfolio-selection-list-items-coffee">Fresh Coffee</h3>
-          <p>Web Site</p>
+          <h3 class="porfolio-selection-list-items-header">Fresh Coffee</h3>
+          <p class="porfolio-selection-list-items-description">Web Site</p>
         </li>
       </ul>
     </section>
   </main>
 
-  <footer>
-    <a href="#link">WEBSTUDIO</a>
-    <p>
-      Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+  <footer class="footer">
+    <a class="logo" href="#link"><span class="logo-web">Web</span><span class="footer-logo">Studio</span></a>
+    <p class="footer-logo-description">
+      Increase the flow of customers and<br />sales for your business with digital<br />marketing & growth solutions.
     </p>
   </footer>
 </body>
