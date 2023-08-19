@@ -162,6 +162,13 @@ a:focus {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.filter-button-list:focus,
+.filter-button-list:hover {
+  background: var(--color-ocean);
+  color: white;
 }
 
 .porfolio-selection-list-items-header {
