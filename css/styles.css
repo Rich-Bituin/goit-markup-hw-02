@@ -166,7 +166,8 @@ a:focus {
 }
 
 .filter-button-list:focus,
-.filter-button-list:hover {
+.filter-button-list:hover,
+.filter-button-list.active {
   background: var(--color-ocean);
   color: white;
 }
