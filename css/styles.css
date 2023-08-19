@@ -11,7 +11,7 @@
 body {
   font-family: 'roboto', sans-serif;
   color: var(--color-navy-blue);
-  list-style: none;
+  background-color: var(--color-white);
 }
 
 ul {
@@ -96,7 +96,6 @@ a:focus {
 }
 
 .features-list-item {
-  color: var(--color-navy-blue);
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
@@ -112,7 +111,6 @@ a:focus {
 
 .services,
 .team {
-  color: var(--color-navy-blue);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -126,7 +124,6 @@ a:focus {
 }
 
 .team-list-items-header {
-  color: var(--color-navy-blue);
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -168,7 +165,6 @@ a:focus {
 }
 
 .porfolio-selection-list-items-header {
-  color: var(--color-navy-blue);
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
