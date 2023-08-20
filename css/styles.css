@@ -12,35 +12,40 @@ body {
   font-family: 'roboto', sans-serif;
   color: var(--color-navy-blue);
   background-color: var(--color-white);
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  display: block;
-  font-style: normal;
   font-size: 16px;
-  line-height: 150%;
   letter-spacing: 0.32px;
 }
 
-a:visited {
-  color: inherit;
+.header-nav,
+.features,
+.services-list,
+.team-list,
+.filter-list,
+.porfolio-selection-list {
+  list-style: none;
 }
 
-a:hover,
-a:focus {
-  color: var(--color-ocean);
+.header-nav-list-link,
+.header-address-mail,
+.header-address-tel,
+.logo {
+  text-decoration: none;
+  display: block;
+  font-style: normal;
+  line-height: 1.5em;
+}
+
+.header-nav-list-link:visited,
+.header-address-mail:visited,
+.header-address-tel:visited {
+  color: inherit;
 }
 
 .logo {
   font-family: 'raleway', sans-serif;
   text-transform: uppercase;
   font-size: 18px;
-  line-height: 116.667%;
+  line-height: 1.17em;
   letter-spacing: 0.54px;
 }
 
@@ -50,6 +55,12 @@ a:focus {
 
 .logo-studio {
   color: var(--color-navy-blue);
+}
+
+.header-nav-list-link:hover,
+.header-address-mail:hover,
+.header-address-tel:hover {
+  color: var(--color-ocean);
 }
 
 .header-nav-list {
@@ -73,7 +84,7 @@ a:focus {
 .hero-header {
   color: var(--color-white);
   font-size: 56px;
-  line-height: 107.143%;
+  line-height: 1.07em;
   font-weight: 700;
   letter-spacing: 1.12px;
   text-align: center;
@@ -81,7 +92,7 @@ a:focus {
 
 .hero-button {
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5em;
   letter-spacing: 0.64px;
   background: var(--color-iris);
   color: var(--color-white);
@@ -89,8 +100,8 @@ a:focus {
   border: none;
 }
 
-.hero-button:focus,
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:active {
   background: var(--color-ocean);
   cursor: pointer;
 }
@@ -98,15 +109,13 @@ a:focus {
 .features-list-item {
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2em;
   letter-spacing: 0.4px;
 }
 
 .features-list-item-definition {
   color: var(--color-slate);
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5em;
 }
 
 .services,
@@ -114,7 +123,7 @@ a:focus {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 111.111%;
+  line-height: 1.11em;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -127,16 +136,14 @@ a:focus {
   text-align: center;
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2em;
   letter-spacing: 0.4px;
 }
 
 .team-list-items-description {
   color: var(--color-slate);
   text-align: center;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5em;
 }
 
 .footer {
@@ -149,18 +156,15 @@ a:focus {
 
 .footer-logo-description {
   color: var(--color-white);
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5em;
 }
 
 .filter-button-list {
   color: var(--color-iris);
   background: var(--color-cloud);
   border: 1px solid var(--color-cornflower);
-  font-size: 16px;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5em;
   letter-spacing: 0.64px;
   cursor: pointer;
 }
@@ -175,13 +179,11 @@ a:focus {
 .porfolio-selection-list-items-header {
   font-size: 20px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2em;
   letter-spacing: 0.4px;
 }
 
 .porfolio-selection-list-items-description {
   color: var(--color-slate);
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.32px;
+  line-height: 1.5em;
 }
