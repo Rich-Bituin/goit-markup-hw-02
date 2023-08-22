@@ -16,7 +16,7 @@ body {
   letter-spacing: 0.32px;
 }
 
-.header-nav,
+.header-nav-list,
 .features,
 .services-list,
 .team-list,
@@ -63,7 +63,7 @@ body {
   color: var(--color-ocean);
 }
 
-.header-nav-list {
+.header-nav-list-item {
   color: var(--color-navy-blue);
   font-weight: 500;
 }
